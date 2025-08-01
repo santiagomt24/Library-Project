@@ -81,7 +81,3 @@ document.getElementById('book-form').addEventListener('submit', e => {
   addBook(t, a, p, r);
   e.target.reset();
 });
-
-
-addBook('1984', 'George Orwell', 328, 'read');
-addBook('El Principito', 'Antoine de Saint‑Exupéry', 96, 'not read');
